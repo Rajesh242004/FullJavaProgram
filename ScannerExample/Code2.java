@@ -1,6 +1,6 @@
 package ScannerExample;
 import java.util.*;
-class Calculator{
+ class Calculator{
     public int add(int num1,int num2){
         return num1+num2;
     }
@@ -8,7 +8,7 @@ class Calculator{
         return num1-num2;
     }
 }
-class Code2{
+public class Code2{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Calculator calc = new Calculator();
