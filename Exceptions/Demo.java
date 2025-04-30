@@ -10,6 +10,12 @@ class Demo{
         catch(Exception e){
             System.out.println("something went wrong");
         }
+        try{
+            j=89/i;
+        }
+        catch(Exception e){
+            System.out.println("again something went wrong");
+        }
         System.out.println("its all good");
     }
 }
